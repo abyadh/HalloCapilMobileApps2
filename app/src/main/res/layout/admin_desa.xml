@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="410dp"
+    android:layout_height="845dp"
+    tools:context=".form_admindesa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:elevation="9dp"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/profile_admin"/>
+
+
+        <Spinner
+            android:id="@+id/pelayananakta"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="20dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/pelayanan_akta"
+            android:scrollbarSize="8dp"
+            android:background="@drawable/input"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:text="     Pengecekan Akta"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="@font/RobotoRegular"
+            android:elevation="5dp"
+            android:background="@drawable/bg_textfield3"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pengecekan"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/info"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:elevation="5dp"
+            android:background="@drawable/bg_textfield3"
+            android:textAlignment="textStart"
+            android:text="     Info"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/RobotoRegular"/>
+    </LinearLayout>
+
+
+</LinearLayout>

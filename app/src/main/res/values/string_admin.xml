@@ -1,0 +1,7 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="admin" >
+
+        <item> Admin Capil</item>
+        <item> Admin Desa</item>
+    </string-array>
+</resources>

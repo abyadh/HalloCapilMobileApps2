@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="410dp"
+    android:layout_height="845dp"
+    tools:context=".form_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2"
+        android:elevation="9dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="307dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="text"
+                android:id="@+id/nama"
+                android:hint="Nama"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="textPassword"
+                android:id="@+id/NIK"
+                android:hint="NIK"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="text"
+                android:id="@+id/asalkecamatan"
+                android:hint="Asala Kecamatan"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="text"
+                android:id="@+id/asaldesa"
+                android:hint="Asal Desa"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="text"
+                android:id="@+id/username"
+                android:hint="Username"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textfield"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/textfield"
+                android:drawablePadding="18dp"
+                android:fontFamily="@font/RobotoRegular"
+                android:inputType="textPassword"
+                android:id="@+id/password"
+                android:hint="Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_marginTop="20dp"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/admin"
+            android:background="@drawable/input"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonPanel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_next" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

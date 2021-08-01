@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array name="pelayanan_akta" >
+
+        <item> Akta Kelahiran</item>
+        <item> Akta Kematian</item>
+        <item> Akta Perkawinan</item>
+        <item> Akta Perceraian</item>
+    </string-array>
+</resources>
